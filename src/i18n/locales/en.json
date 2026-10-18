@@ -1,0 +1,424 @@
+{
+  "meta": {
+    "title": "Associació Parla i Integra · Reus",
+    "description": "Non-profit in Reus offering online Catalan and Spanish classes for women, school support and language classes for children, and support services for schools."
+  },
+  "lang": {
+    "label": "Change language"
+  },
+  "nav": {
+    "label": "Main navigation",
+    "menu": "Open or close the menu",
+    "skip": "Skip to content",
+    "top": "Back to top",
+    "about": "About us",
+    "scenarios": "In practice",
+    "programs": "What we do",
+    "journey": "The journey",
+    "help": "Get involved",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "cta": "Write to us",
+    "online": "Online",
+    "schools": "Schools"
+  },
+  "hero": {
+    "badge": "Non-profit association · Reus",
+    "lead": "Language is the bridge to",
+    "words": "feeling at home|making friends|finding work|understanding school|growing without fear",
+    "subtitle": "Online Catalan and Spanish classes for women, school support and language classes for children, and support services for schools. We learn by talking, with confidence.",
+    "ctaPrimary": "I want to start",
+    "ctaSecondary": "See what we do",
+    "chips": {
+      "welcome": "Online classes for women",
+      "levels": "Support and languages for children",
+      "local": "Services for schools"
+    },
+    "float": {
+      "f1": "School support",
+      "f3": "Reus"
+    },
+    "card": {
+      "text": "Learning together, by talking"
+    },
+    "paths": {
+      "women": {
+        "title": "Women",
+        "text": "Online Catalan and Spanish classes, from your own home.",
+        "tag": "Online"
+      },
+      "children": {
+        "title": "Children",
+        "text": "School support and Catalan and Spanish classes.",
+        "tag": "Support and languages"
+      },
+      "schools": {
+        "title": "Schools",
+        "text": "Support and language services for your school.",
+        "tag": "For schools"
+      }
+    }
+  },
+  "marquee": {
+    "label": "Welcome in many languages"
+  },
+  "about": {
+    "eyebrow": "About us",
+    "title": "People helping people find their voice",
+    "text1": "Associació Parla i Integra is an association in Reus born from a simple idea: nobody should feel alone or isolated because they don't speak the language yet. Learning Catalan and Spanish opens doors at school, at work and, above all, in friendships.",
+    "text2": "We focus on two things: online Catalan and Spanish classes for women, and school support and language classes for children, also through schools and centres.",
+    "points": {
+      "p1": "We learn by talking, using real-life situations",
+      "p2": "Everyone at their own pace, with no pressure or judgement",
+      "p3": "A space of trust, respect and support"
+    },
+    "quote": {
+      "label": "What we believe",
+      "text": "When someone learns to say “good morning” with confidence, they also start to feel that the street, the school and the city belong to them."
+    },
+    "values": {
+      "language": {
+        "title": "Language",
+        "text": "Speaking the language is a tool to make decisions about your own life."
+      },
+      "community": {
+        "title": "Community",
+        "text": "We build bonds between neighbours who might otherwise never meet."
+      },
+      "respect": {
+        "title": "Respect",
+        "text": "We value every culture, every language and every story that arrives."
+      },
+      "solidarity": {
+        "title": "Solidarity",
+        "text": "We help each other: what is learned is shared."
+      }
+    }
+  },
+  "scenarios": {
+    "eyebrow": "In practice",
+    "title": "Language in real-life situations",
+    "lead": "We practise what you really need to say: at your children's school, at the doctor's, in a job interview or around the neighbourhood.",
+    "chatTitle": "Let's practise!",
+    "chatSub": "Examples of what we work on in our groups",
+    "tabs": {
+      "school": "At school",
+      "health": "At the doctor's",
+      "work": "At work",
+      "city": "Around town"
+    },
+    "items": {
+      "school": {
+        "t1": "Good morning, I've come to pick up my daughter.",
+        "t2": "Good morning! What's her name?",
+        "t3": "Her name is Amina. Thank you so much!"
+      },
+      "health": {
+        "t1": "Good morning, I have an appointment with the doctor at five.",
+        "t2": "Perfect. Please take a seat, they will see you shortly.",
+        "t3": "Thank you, that's very kind!"
+      },
+      "work": {
+        "t1": "Good morning, I'm here for the job interview.",
+        "t2": "Welcome! Please come this way.",
+        "t3": "Thank you so much. I'm a little nervous!"
+      },
+      "city": {
+        "t1": "Excuse me, how do I get to the Town Hall?",
+        "t2": "Follow this street and turn right.",
+        "t3": "I understood! Thank you so much!"
+      }
+    }
+  },
+  "programs": {
+    "eyebrow": "What we do",
+    "title": "Two ways to learn, one goal",
+    "lead": "Classes for women and support for children: all to build confidence with the language.",
+    "cta": "I want to take part",
+    "for": {
+      "women": "Women",
+      "children": "Children"
+    },
+    "items": {
+      "reinforcement": {
+        "title": "School support",
+        "text": "We support children with homework, reading and speaking and writing, so they gain confidence in class and enjoy learning."
+      },
+      "conversation": {
+        "title": "Online conversation groups",
+        "text": "Speaking is the best way to learn: informal meet-ups to lose the fear."
+      },
+      "kids": {
+        "title": "Catalan and Spanish classes for children",
+        "text": "They learn the language through play and conversation, at their own pace and with confidence."
+      },
+      "women": {
+        "title": "Catalan and Spanish classes for women",
+        "text": "Live online classes, adapted to your level and your needs."
+      }
+    },
+    "online": "Online"
+  },
+  "journey": {
+    "eyebrow": "The journey",
+    "title": "From first words to feeling part of it",
+    "lead": "Learning a language is much more than grammar: it's gaining freedom, step by step.",
+    "items": {
+      "understand": {
+        "title": "Understand",
+        "text": "We start by understanding what we hear on the street, at school and in everyday paperwork."
+      },
+      "speak": {
+        "title": "Speak",
+        "text": "We lose the fear of making mistakes: we talk, laugh and learn with confidence."
+      },
+      "participate": {
+        "title": "Take part",
+        "text": "We move around independently: school meetings, paperwork, shops and job interviews."
+      },
+      "belong": {
+        "title": "Belong",
+        "text": "We make friends, get to know the neighbourhood and find our place in Reus."
+      }
+    }
+  },
+  "stats": {
+    "items": {
+      "children": "Children",
+      "classes": "Groups and classes",
+      "women": "Women",
+      "schools": "Schools"
+    }
+  },
+  "help": {
+    "eyebrow": "Get involved",
+    "title": "There are many ways to join in",
+    "lead": "An association is only as strong as the people who make it possible. You can be one of them, and we'd love that.",
+    "items": {
+      "volunteer": {
+        "title": "Become a volunteer",
+        "text": "Give a few hours to chat, give support or help with activities. You don't need to be a teacher: just be willing to listen.",
+        "cta": "I want to help"
+      },
+      "partner": {
+        "title": "Schools, organisations and businesses",
+        "text": "We work in a network with schools, social services and other organisations. Let's talk about how to collaborate.",
+        "cta": "Let's connect"
+      }
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Frequently asked questions",
+    "lead": "If you can't find the answer you're looking for, write to us. We'll be glad to help.",
+    "cta": "Ask us a question",
+    "items": {
+      "enroll": {
+        "q": "How can I sign up?",
+        "a": "Write to us on WhatsApp, by email or with the form on this page and we'll explain the steps."
+      },
+      "level": {
+        "q": "Do I need to know any Catalan or Spanish?",
+        "a": "No. There's a place for every level, including people starting from zero."
+      },
+      "who": {
+        "q": "Who is the association for?",
+        "a": "For women who want to learn Catalan or Spanish (online classes) and for children who need school support or language classes. We also offer services to schools."
+      },
+      "volunteer": {
+        "q": "Can I become a volunteer?",
+        "a": "Yes, and we'd love that! You only need a little time and the will to listen. Let's talk."
+      },
+      "data": {
+        "q": "What do you do with my data?",
+        "a": "We only use it to reply to you and organise activities. We don't share it with third parties."
+      },
+      "online": {
+        "q": "How do the online classes work?",
+        "a": "You'll receive a link to join from your phone, tablet or computer. If you're unsure about the technology, we'll help you."
+      },
+      "schools": {
+        "q": "Do you offer services to schools?",
+        "a": "Yes. We offer school support and language classes for pupils. Write to us and we will see what your school needs."
+      }
+    }
+  },
+  "cta": {
+    "title": "Shall we talk? Your first word can be today",
+    "text": "Message us on WhatsApp or leave us a note. We'll happily reply in the language that suits you best.",
+    "whatsapp": "Message us on WhatsApp",
+    "form": "Send a message"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "How can we help you?",
+    "lead": "Write to us on WhatsApp, by email or with the form. We'll reply as soon as we can.",
+    "info": {
+      "city": "Where we are",
+      "cityValue": "Reus, Tarragona",
+      "email": "Email",
+      "instagram": "Instagram"
+    },
+    "whatsappBox": {
+      "title": "Send us a WhatsApp message",
+      "text": "It's the quickest and easiest way to reach us. Write in Catalan, Spanish, English or Arabic.",
+      "button": "Open WhatsApp"
+    }
+  },
+  "form": {
+    "name": "Your name",
+    "email": "Email",
+    "phone": "Phone / WhatsApp",
+    "optional": "(optional)",
+    "subject": "Reason for your message",
+    "message": "Message",
+    "consent": "I agree that Associació Parla i Integra may use my data to reply to this message.",
+    "send": "Send request",
+    "whatsapp": "Send it via WhatsApp",
+    "mailto": "Your email app has opened to send the message.",
+    "error": "The message could not be sent. Please try again or write to us on WhatsApp.",
+    "errors": {
+      "required": "This field is required.",
+      "email": "Please enter a valid email address.",
+      "consent": "You must agree before sending the message.",
+      "contact": "Enter a phone number or an email so we can reply.",
+      "phone": "Enter a valid phone number."
+    },
+    "title": "Sign up in a minute",
+    "subtitle": "Choose what you are interested in and tell us how to reach you. That is all.",
+    "step1": "What are you interested in?",
+    "step2": "How can we contact you?",
+    "step3": "Anything to add?",
+    "contactHint": "Enter your phone, your email or both.",
+    "messagePlaceholder": "Tell us about your situation, which times suit you...",
+    "successTitle": "Thank you, we got it!",
+    "successText": "We have received your message and will get back to you very soon.",
+    "again": "Send another message",
+    "details": {
+      "language": {
+        "label": "Which language do you want to learn?",
+        "options": {
+          "ca": "Catalan",
+          "es": "Spanish",
+          "both": "Both"
+        }
+      },
+      "level": {
+        "label": "What is your level?",
+        "options": {
+          "zero": "I'm starting from zero",
+          "some": "I understand a little",
+          "improve": "I get by, I want to improve"
+        }
+      },
+      "need": {
+        "label": "What do they need?",
+        "options": {
+          "reinforcement": "School support",
+          "catalan": "Catalan",
+          "spanish": "Spanish",
+          "unsure": "I don't know"
+        }
+      },
+      "age": {
+        "label": "Child's age",
+        "options": {
+          "a35": "3-5 years",
+          "a68": "6-8 years",
+          "a912": "9-12 years",
+          "a1316": "13-16 years"
+        }
+      },
+      "school": {
+        "label": "Name of the school or centre",
+        "placeholder": "School..."
+      }
+    }
+  },
+  "subjects": {
+    "info": "I just want information",
+    "volunteer": "Volunteering",
+    "women": "Online classes for women",
+    "children": "Support or classes for children",
+    "school": "Services for schools"
+  },
+  "whatsapp": {
+    "label": "Message us on WhatsApp",
+    "message": "Hello! I'd like information about Associació Parla i Integra in Reus.",
+    "formIntro": "Hello! I'm {name} and I'd like information about Associació Parla i Integra."
+  },
+  "footer": {
+    "about": "An association in Reus: online Catalan and Spanish classes for women, school support and languages for children, and services for schools.",
+    "navigation": "Navigation",
+    "contact": "Contact",
+    "social": "Social",
+    "rights": "All rights reserved."
+  },
+  "online": {
+    "eyebrow": "Online classes for women",
+    "title": "Learn Catalan or Spanish from home",
+    "lead": "Live classes by video call, designed for women who want to gain confidence with the language without having to travel.",
+    "points": {
+      "p1": "From your phone, tablet or computer",
+      "p2": "For every level, even if you're starting from zero",
+      "p3": "A space of trust and respect among women"
+    },
+    "cta": "I want to sign up",
+    "live": "Live"
+  },
+  "schools": {
+    "eyebrow": "For schools",
+    "title": "We're your school's ally",
+    "lead": "We offer services to schools and educational centres so that no pupil is left behind because of language.",
+    "cta": "Let's talk about your school",
+    "items": {
+      "reinforcement": {
+        "title": "School support for pupils",
+        "text": "Review sessions so children can keep up with the class with confidence."
+      },
+      "language": {
+        "title": "Language classes",
+        "text": "Catalan and Spanish for pupils who need language support."
+      },
+      "team": {
+        "title": "Working together",
+        "text": "We coordinate with the school to tailor the service to each need."
+      }
+    }
+  },
+  "privacy": {
+    "link": "Privacy policy",
+    "close": "Close",
+    "title": "Privacy policy",
+    "updated": "Last updated: October 2026",
+    "intro": "This website does not use tracking or advertising cookies. We only process the data you voluntarily give us.",
+    "s1": {
+      "title": "Who is responsible",
+      "text": "Associació Parla i Integra, based in Reus (Tarragona, Spain). You can contact us to exercise your rights or with any question at:"
+    },
+    "s2": {
+      "title": "What data we collect",
+      "text": "If you write to us through the form: your name, email, phone (optional), the reason and message, and the site language. If you write via WhatsApp, the message is handled inside WhatsApp and we only see your number and what you write."
+    },
+    "s3": {
+      "title": "What we use it for",
+      "text": "Only to answer your enquiry or manage your registration for our activities. We do not build profiles, make automated decisions or use your data for advertising."
+    },
+    "s4": {
+      "title": "Legal basis and retention",
+      "text": "The legal basis is your consent (Art. 6.1.a GDPR), given by ticking the form checkbox and which you can withdraw at any time. We keep the data while we deal with your enquiry and afterwards only as long as needed to meet legal obligations."
+    },
+    "s5": {
+      "title": "Who we share it with",
+      "text": "We do not sell or give away your data. The form is sent through the FormSubmit service and received in a Gmail (Google) mailbox; both act as technical providers and may process data outside the EU with appropriate safeguards. If you use WhatsApp, Meta's terms also apply."
+    },
+    "s6": {
+      "title": "Your rights",
+      "text": "You may request access, rectification, erasure, objection, restriction and portability of your data by writing to the email above. If you believe we have not handled your data properly, you can complain to the Spanish Data Protection Agency (aepd.es)."
+    },
+    "s7": {
+      "title": "Minors and cookies",
+      "text": "If you write on behalf of a person under 14, a parent or legal guardian must do so. The site uses no cookies: it only stores the language you choose in your browser, to remember it."
+    }
+  }
+}

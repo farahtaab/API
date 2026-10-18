@@ -1,0 +1,424 @@
+{
+  "meta": {
+    "title": "Associació Parla i Integra · Reus",
+    "description": "Associació de Reus que ofereix classes de català i castellà online per a dones, reforç escolar i classes d'idiomes per a nens i nenes, i serveis de reforç per a escoles."
+  },
+  "lang": {
+    "label": "Canvia l'idioma"
+  },
+  "nav": {
+    "label": "Navegació principal",
+    "menu": "Obre o tanca el menú",
+    "skip": "Ves al contingut",
+    "top": "Torna amunt",
+    "about": "Qui som",
+    "scenarios": "A la pràctica",
+    "programs": "Què fem",
+    "journey": "El camí",
+    "help": "Col·labora",
+    "faq": "Preguntes",
+    "contact": "Contacte",
+    "cta": "Escriu-nos",
+    "online": "Online",
+    "schools": "Escoles"
+  },
+  "hero": {
+    "badge": "Associació sense ànim de lucre · Reus",
+    "lead": "La llengua és el pont per",
+    "words": "sentir-te a casa|fer amistats|trobar feina|entendre l'escola|créixer sense por",
+    "subtitle": "Classes de català i castellà online per a dones, reforç escolar i idiomes per a nens i nenes, i serveis de reforç per a escoles. Aprenem parlant, amb confiança.",
+    "ctaPrimary": "Vull començar",
+    "ctaSecondary": "Descobreix què fem",
+    "chips": {
+      "welcome": "Classes online per a dones",
+      "levels": "Reforç i idiomes per a infants",
+      "local": "Serveis per a escoles"
+    },
+    "float": {
+      "f1": "Reforç escolar",
+      "f3": "Reus"
+    },
+    "card": {
+      "text": "Aprenem junts, parlant"
+    },
+    "paths": {
+      "women": {
+        "title": "Dones",
+        "text": "Classes de català i castellà online, des de casa teva.",
+        "tag": "Online"
+      },
+      "children": {
+        "title": "Nens i nenes",
+        "text": "Reforç escolar i classes de català i castellà.",
+        "tag": "Reforç i idiomes"
+      },
+      "schools": {
+        "title": "Escoles",
+        "text": "Serveis de reforç i suport lingüístic per al teu centre.",
+        "tag": "Per a centres"
+      }
+    }
+  },
+  "marquee": {
+    "label": "Benvinguda en molts idiomes"
+  },
+  "about": {
+    "eyebrow": "Qui som",
+    "title": "Persones que ajuden persones a trobar la seva veu",
+    "text1": "L'Associació Parla i Integra neix a Reus d'una idea senzilla: ningú no hauria de sentir-se sol o aïllat per no dominar l'idioma. Aprendre català i castellà obre portes a l'escola, a la feina i, sobretot, a les amistats.",
+    "text2": "Ens centrem en dues coses: classes de català i castellà online per a dones, i reforç escolar i classes d'idiomes per a nens i nenes, també a través d'escoles i centres.",
+    "points": {
+      "p1": "Aprenem parlant, amb situacions de la vida real",
+      "p2": "Cadascú al seu ritme, sense pressa ni judicis",
+      "p3": "Un espai de confiança, respecte i acompanyament"
+    },
+    "quote": {
+      "label": "La nostra convicció",
+      "text": "Quan algú aprèn a dir «bon dia» amb confiança, també comença a sentir que el carrer, l'escola i la ciutat són seus."
+    },
+    "values": {
+      "language": {
+        "title": "Llengua",
+        "text": "Dominar l'idioma és una eina per decidir sobre la teva pròpia vida."
+      },
+      "community": {
+        "title": "Comunitat",
+        "text": "Creem llaços entre veïnes i veïns que d'altra manera no es coneixerien."
+      },
+      "respect": {
+        "title": "Respecte",
+        "text": "Valorem cada cultura, cada idioma i cada història que arriba."
+      },
+      "solidarity": {
+        "title": "Solidaritat",
+        "text": "Ens ajudem les unes a les altres: el que s'aprèn, es comparteix."
+      }
+    }
+  },
+  "scenarios": {
+    "eyebrow": "A la pràctica",
+    "title": "La llengua, en situacions reals",
+    "lead": "Practiquem allò que de debò necessites dir: a l'escola dels teus fills, al metge, en una entrevista de feina o pel barri.",
+    "chatTitle": "Ho practiquem!",
+    "chatSub": "Exemples del que treballem als grups",
+    "tabs": {
+      "school": "A l'escola",
+      "health": "Al metge",
+      "work": "A la feina",
+      "city": "Pel barri"
+    },
+    "items": {
+      "school": {
+        "t1": "",
+        "t2": "",
+        "t3": ""
+      },
+      "health": {
+        "t1": "",
+        "t2": "",
+        "t3": ""
+      },
+      "work": {
+        "t1": "",
+        "t2": "",
+        "t3": ""
+      },
+      "city": {
+        "t1": "",
+        "t2": "",
+        "t3": ""
+      }
+    }
+  },
+  "programs": {
+    "eyebrow": "Què fem",
+    "title": "Dues maneres d'aprendre, un mateix objectiu",
+    "lead": "Classes per a dones i reforç per a infants: tot per guanyar confiança amb la llengua.",
+    "cta": "Vull participar-hi",
+    "for": {
+      "women": "Dones",
+      "children": "Nens i nenes"
+    },
+    "items": {
+      "reinforcement": {
+        "title": "Reforç escolar",
+        "text": "Acompanyem nens i nenes amb els deures, la lectura i l'expressió oral i escrita, perquè guanyin seguretat a l'aula i gaudeixin d'aprendre."
+      },
+      "conversation": {
+        "title": "Grups de conversa online",
+        "text": "Parlar és la millor manera d'aprendre: trobades informals per perdre la por."
+      },
+      "kids": {
+        "title": "Classes de català i castellà per a infants",
+        "text": "Aprenen la llengua jugant i parlant, al seu ritme i amb confiança."
+      },
+      "women": {
+        "title": "Classes de català i castellà per a dones",
+        "text": "Classes online en directe, adaptades al teu nivell i a les teves necessitats."
+      }
+    },
+    "online": "Online"
+  },
+  "journey": {
+    "eyebrow": "El camí",
+    "title": "De les primeres paraules a sentir-te'n part",
+    "lead": "Aprendre una llengua és molt més que gramàtica: és anar guanyant llibertat pas a pas.",
+    "items": {
+      "understand": {
+        "title": "Entendre",
+        "text": "Comencem per comprendre el que sentim al carrer, a l'escola i als papers del dia a dia."
+      },
+      "speak": {
+        "title": "Parlar",
+        "text": "Perdem la por d'equivocar-nos: es parla, es riu i s'aprèn amb confiança."
+      },
+      "participate": {
+        "title": "Participar",
+        "text": "Ens movem amb autonomia: reunions de l'escola, tràmits, botigues i entrevistes de feina."
+      },
+      "belong": {
+        "title": "Sentir-se'n part",
+        "text": "Fem amistats, coneixem el barri i trobem el nostre lloc a Reus."
+      }
+    }
+  },
+  "stats": {
+    "items": {
+      "children": "Nens i nenes",
+      "classes": "Grups i classes",
+      "women": "Dones",
+      "schools": "Escoles"
+    }
+  },
+  "help": {
+    "eyebrow": "Col·labora",
+    "title": "Hi ha moltes maneres de sumar",
+    "lead": "Una associació és tan forta com la gent que la fa possible. Hi pots ser, i ens farà molta il·lusió.",
+    "items": {
+      "volunteer": {
+        "title": "Fes-te voluntària o voluntari",
+        "text": "Dedica unes hores a conversar, donar reforç o ajudar en les activitats. No cal ser professor: només ganes d'escoltar.",
+        "cta": "Vull ajudar"
+      },
+      "partner": {
+        "title": "Escoles, entitats i empreses",
+        "text": "Treballem en xarxa amb escoles, serveis socials i altres entitats. Parlem de com col·laborar.",
+        "cta": "Fem xarxa"
+      }
+    }
+  },
+  "faq": {
+    "eyebrow": "Preguntes",
+    "title": "Dubtes freqüents",
+    "lead": "Si no trobes la resposta que busques, escriu-nos. Ens encantarà ajudar-te.",
+    "cta": "Fes-nos una pregunta",
+    "items": {
+      "enroll": {
+        "q": "Com em puc apuntar?",
+        "a": "Escriu-nos per WhatsApp, per correu o amb el formulari d'aquesta pàgina i t'expliquem els passos."
+      },
+      "level": {
+        "q": "Necessito saber alguna cosa de català o castellà?",
+        "a": "No. Hi ha lloc per a tots els nivells, també per a qui comença des de zero."
+      },
+      "who": {
+        "q": "A qui s'adreça l'associació?",
+        "a": "A dones que volen aprendre català o castellà (classes online) i a nens i nenes que necessiten reforç escolar o classes d'idiomes. També oferim serveis a escoles."
+      },
+      "volunteer": {
+        "q": "Puc fer-me voluntari o voluntària?",
+        "a": "Sí, i ens farà molta il·lusió! Només cal una mica de temps i ganes d'escoltar. Parlem-ne."
+      },
+      "data": {
+        "q": "Què feu amb les meves dades?",
+        "a": "Només les utilitzem per respondre't i organitzar les activitats. No les compartim amb tercers."
+      },
+      "online": {
+        "q": "Com funcionen les classes online?",
+        "a": "Rebràs un enllaç per connectar-te des del mòbil, la tauleta o l'ordinador. Si tens dubtes amb la tecnologia, t'ajudem."
+      },
+      "schools": {
+        "q": "Oferiu serveis a escoles?",
+        "a": "Sí. Oferim reforç escolar i classes de llengua per a l'alumnat. Escriu-nos i veiem què necessita el teu centre."
+      }
+    }
+  },
+  "cta": {
+    "title": "Parlem? La teva primera paraula pot ser avui",
+    "text": "Escriu-nos per WhatsApp o deixa'ns un missatge. Et respondrem amb molt de gust, en l'idioma que et vagi millor.",
+    "whatsapp": "Escriu-nos per WhatsApp",
+    "form": "Envia un missatge"
+  },
+  "contact": {
+    "eyebrow": "Contacte",
+    "title": "Com et podem ajudar?",
+    "lead": "Escriu-nos per WhatsApp, per correu o amb el formulari. Respondrem el més aviat possible.",
+    "info": {
+      "city": "On som",
+      "cityValue": "Reus, Tarragona",
+      "email": "Correu electrònic",
+      "instagram": "Instagram"
+    },
+    "whatsappBox": {
+      "title": "Envia'ns un missatge per WhatsApp",
+      "text": "És la manera més ràpida i còmoda de parlar amb nosaltres. Escriu-nos en català, castellà, anglès o àrab.",
+      "button": "Obre WhatsApp"
+    }
+  },
+  "form": {
+    "name": "El teu nom",
+    "email": "Correu electrònic",
+    "phone": "Telèfon / WhatsApp",
+    "optional": "(opcional)",
+    "subject": "Motiu del missatge",
+    "message": "Missatge",
+    "consent": "Accepto que l'Associació Parla i Integra utilitzi les meves dades per respondre aquest missatge.",
+    "send": "Envia la sol·licitud",
+    "whatsapp": "Envia'l per WhatsApp",
+    "mailto": "S'ha obert el teu programa de correu per enviar el missatge.",
+    "error": "No s'ha pogut enviar. Torna-ho a provar o escriu-nos per WhatsApp.",
+    "errors": {
+      "required": "Aquest camp és obligatori.",
+      "email": "Introdueix un correu electrònic vàlid.",
+      "consent": "Has d'acceptar per poder enviar el missatge.",
+      "contact": "Escriu un telèfon o un correu perquè et puguem respondre.",
+      "phone": "Introdueix un telèfon vàlid."
+    },
+    "title": "Apunta't en un minut",
+    "subtitle": "Tria què t'interessa i digue'ns com contactar-te. Res més.",
+    "step1": "Què t'interessa?",
+    "step2": "Com et podem contactar?",
+    "step3": "Vols afegir alguna cosa?",
+    "contactHint": "Escriu el telèfon, el correu o tots dos.",
+    "messagePlaceholder": "Explica'ns la teva situació, quins horaris et van bé...",
+    "successTitle": "Gràcies, ja ho tenim!",
+    "successText": "Hem rebut el teu missatge i et respondrem ben aviat.",
+    "again": "Envia un altre missatge",
+    "details": {
+      "language": {
+        "label": "Quin idioma vols aprendre?",
+        "options": {
+          "ca": "Català",
+          "es": "Castellà",
+          "both": "Tots dos"
+        }
+      },
+      "level": {
+        "label": "Quin nivell tens?",
+        "options": {
+          "zero": "Començo de zero",
+          "some": "Entenc una mica",
+          "improve": "Em defenso, vull millorar"
+        }
+      },
+      "need": {
+        "label": "Què necessita?",
+        "options": {
+          "reinforcement": "Reforç escolar",
+          "catalan": "Català",
+          "spanish": "Castellà",
+          "unsure": "No ho sé"
+        }
+      },
+      "age": {
+        "label": "Edat del nen o la nena",
+        "options": {
+          "a35": "3-5 anys",
+          "a68": "6-8 anys",
+          "a912": "9-12 anys",
+          "a1316": "13-16 anys"
+        }
+      },
+      "school": {
+        "label": "Nom de l'escola o centre",
+        "placeholder": "Escola..."
+      }
+    }
+  },
+  "subjects": {
+    "info": "Només vull informació",
+    "volunteer": "Voluntariat",
+    "women": "Classes online per a dones",
+    "children": "Reforç o classes per a nens i nenes",
+    "school": "Serveis per a escoles"
+  },
+  "whatsapp": {
+    "label": "Escriu-nos per WhatsApp",
+    "message": "Hola! Voldria informació sobre l'Associació Parla i Integra de Reus.",
+    "formIntro": "Hola! Soc {name} i voldria informació sobre l'Associació Parla i Integra."
+  },
+  "footer": {
+    "about": "Associació de Reus: classes de català i castellà online per a dones, reforç i idiomes per a infants i serveis per a escoles.",
+    "navigation": "Navegació",
+    "contact": "Contacte",
+    "social": "Xarxes",
+    "rights": "Tots els drets reservats."
+  },
+  "online": {
+    "eyebrow": "Classes online per a dones",
+    "title": "Aprèn català o castellà des de casa",
+    "lead": "Classes en directe per videotrucada, pensades per a dones que volen guanyar confiança amb l'idioma sense haver de desplaçar-se.",
+    "points": {
+      "p1": "Des del mòbil, la tauleta o l'ordinador",
+      "p2": "Per a tots els nivells, també si comences de zero",
+      "p3": "Un espai de confiança i respecte entre dones"
+    },
+    "cta": "Vull apuntar-me",
+    "live": "En directe"
+  },
+  "schools": {
+    "eyebrow": "Per a escoles",
+    "title": "Som aliats de la teva escola",
+    "lead": "Oferim serveis a escoles i centres educatius perquè cap alumne es quedi enrere per qüestió d'idioma.",
+    "cta": "Parlem de la teva escola",
+    "items": {
+      "reinforcement": {
+        "title": "Reforç escolar per a l'alumnat",
+        "text": "Sessions de repàs perquè els infants segueixin el ritme de la classe amb seguretat."
+      },
+      "language": {
+        "title": "Classes de llengua",
+        "text": "Català i castellà per a alumnat que necessita suport lingüístic."
+      },
+      "team": {
+        "title": "Treball en equip",
+        "text": "Ens coordinem amb el centre per ajustar el servei a cada necessitat."
+      }
+    }
+  },
+  "privacy": {
+    "link": "Política de privacitat",
+    "close": "Tanca",
+    "title": "Política de privacitat",
+    "updated": "Darrera actualització: octubre de 2026",
+    "intro": "Aquesta web no utilitza galetes de seguiment ni publicitat. Només tractem les dades que ens facilites voluntàriament.",
+    "s1": {
+      "title": "Qui és el responsable",
+      "text": "Associació Parla i Integra, amb seu a Reus (Tarragona). Pots contactar amb nosaltres per exercir els teus drets o resoldre qualsevol dubte a:"
+    },
+    "s2": {
+      "title": "Quines dades recollim",
+      "text": "Si ens escrius pel formulari: nom, correu electrònic, telèfon (opcional), el motiu i el missatge, i l'idioma de la web. Si ens escrius per WhatsApp, el missatge es tramita dins de WhatsApp i nosaltres només veiem el teu número i el que ens escriguis."
+    },
+    "s3": {
+      "title": "Per a què les fem servir",
+      "text": "Només per respondre la teva consulta o gestionar la teva inscripció a les nostres activitats. No fem perfils, no prenem decisions automatitzades i no les utilitzem per a publicitat."
+    },
+    "s4": {
+      "title": "Base legal i conservació",
+      "text": "La base legal és el teu consentiment (art. 6.1.a del RGPD), que prestes en marcar la casella del formulari i pots retirar quan vulguis. Conservem les dades mentre atenem la teva consulta i, després, només el temps necessari per complir obligacions legals."
+    },
+    "s5": {
+      "title": "Amb qui les compartim",
+      "text": "No venem ni cedim les teves dades. El formulari s'envia mitjançant el servei FormSubmit i es rep en un compte de correu de Gmail (Google), que actuen com a proveïdors tècnics i poden tractar les dades fora de la UE amb garanties adequades. Si fas servir WhatsApp, s'apliquen també les condicions de Meta."
+    },
+    "s6": {
+      "title": "Els teus drets",
+      "text": "Pots sol·licitar l'accés, la rectificació, la supressió, l'oposició, la limitació i la portabilitat de les teves dades, escrivint-nos al correu indicat. Si consideres que no hem tractat bé les teves dades, pots reclamar davant l'Agència Espanyola de Protecció de Dades (aepd.es)."
+    },
+    "s7": {
+      "title": "Menors i galetes",
+      "text": "Si ens escrius en nom d'una persona menor de 14 anys, ho ha de fer el seu pare, mare o tutor legal. La web no fa servir galetes: només desa al teu navegador l'idioma que triïs, per recordar-lo."
+    }
+  }
+}

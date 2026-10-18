@@ -1,0 +1,520 @@
+@import "tailwindcss";
+
+/* ------------------------------------------------------------------
+   Tokens de disseny (colors extrets del logo: verd #5A7766 i rosa #F7C5F0)
+   Canvia aquí la paleta i tota la web s'actualitza.
+------------------------------------------------------------------- */
+@theme {
+  --font-sans: "Nunito Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-arabic: "Noto Kufi Arabic Variable", "Nunito Variable", ui-sans-serif, system-ui, sans-serif;
+
+  --color-brand-50: #f4f8f5;
+  --color-brand-100: #e5eee8;
+  --color-brand-200: #cddcd2;
+  --color-brand-300: #a8c0b0;
+  --color-brand-400: #7f9d8c;
+  --color-brand-500: #6b8b79;
+  --color-brand-600: #5a7766;
+  --color-brand-700: #475f52;
+  --color-brand-800: #384c41;
+  --color-brand-900: #2b3b32;
+  --color-brand-950: #17211b;
+
+  --color-blush-50: #fef6fd;
+  --color-blush-100: #fcebfa;
+  --color-blush-200: #fad9f6;
+  --color-blush-300: #f7c5f0;
+  --color-blush-400: #ef9fe5;
+  --color-blush-500: #e275d4;
+  --color-blush-600: #c850b8;
+
+  /* Accent càlid per donar vida (s'usa amb mesura) */
+  --color-sun-100: #fff3d1;
+  --color-sun-200: #ffe8a8;
+  --color-sun-300: #fdd873;
+  --color-sun-400: #f7c244;
+
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-float-slow: float 9s ease-in-out infinite reverse;
+  --animate-blob: blob 18s ease-in-out infinite;
+  --animate-blob-slow: blob 26s ease-in-out infinite reverse;
+  --animate-marquee: marquee 40s linear infinite;
+  --animate-wiggle: wiggle 4s ease-in-out infinite;
+  --animate-spin-slow: spin 30s linear infinite;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-14px) rotate(1.5deg);
+  }
+}
+@keyframes blob {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+  33% {
+    transform: translate(40px, -50px) scale(1.12);
+  }
+  66% {
+    transform: translate(-30px, 30px) scale(0.94);
+  }
+}
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+@keyframes wiggle {
+  0%,
+  100% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(4deg);
+  }
+}
+/* Bombolles del xat del hero: apareixen escalonades i es repeteixen */
+@keyframes bubble {
+  0% {
+    opacity: 0;
+    transform: translateY(14px) scale(0.85);
+  }
+  4%,
+  80% {
+    opacity: 1;
+    transform: none;
+  }
+  92%,
+  100% {
+    opacity: 0;
+    transform: translateY(-6px) scale(0.98);
+  }
+}
+@keyframes pop-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px) scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes dot {
+  0%,
+  60%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.4;
+  }
+  30% {
+    transform: translateY(-5px);
+    opacity: 1;
+  }
+}
+@keyframes speak {
+  0%,
+  26%,
+  100% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+  4%,
+  22% {
+    box-shadow: 0 0 0 4px var(--color-blush-300);
+  }
+}
+@keyframes node-pop {
+  0% {
+    transform: scale(0.4);
+    opacity: 0;
+  }
+  70% {
+    transform: scale(1.12);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
+  }
+
+  body {
+    @apply bg-white font-sans text-brand-900 antialiased;
+    overflow-x: clip;
+  }
+
+  /* Àrab: tipografia pròpia i més interlineat */
+  html[lang="ar"] body {
+    font-family: var(--font-arabic);
+    line-height: 1.85;
+  }
+
+  ::selection {
+    background: var(--color-blush-300);
+    color: var(--color-brand-900);
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--color-blush-500);
+    outline-offset: 2px;
+  }
+
+  /* Pàgina oculta fins que les traduccions estan carregades */
+  .app-loading {
+    opacity: 0;
+  }
+  #app {
+    transition: opacity 0.4s ease;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation: none !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .section {
+    @apply relative py-12 sm:py-16 lg:py-20;
+  }
+
+  /* Trama de punts decorativa */
+  .dots {
+    background-image: radial-gradient(var(--color-brand-300) 1.2px, transparent 1.2px);
+    background-size: 26px 26px;
+  }
+  .dots-light {
+    background-image: radial-gradient(rgb(255 255 255 / 0.18) 1.2px, transparent 1.2px);
+    background-size: 26px 26px;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-2 rounded-full bg-blush-100 px-3.5 py-1.5 text-sm font-bold text-brand-700 ring-1 ring-blush-300/60;
+  }
+  .eyebrow-dark {
+    @apply bg-white/10 text-blush-200 ring-white/15;
+  }
+
+  .section-title {
+    @apply mt-4 text-3xl font-extrabold tracking-tight text-balance text-brand-800 sm:text-4xl lg:text-5xl;
+  }
+
+  .section-lead {
+    @apply mt-4 max-w-2xl text-lg text-balance text-brand-700/80;
+  }
+
+  /* Subratllat tipus retolador */
+  .marker {
+    background-image: linear-gradient(transparent 62%, var(--color-blush-300) 62%, var(--color-blush-300) 92%, transparent 92%);
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-full bg-white/80 px-3 py-1 text-xs font-bold text-brand-700 ring-1 ring-brand-200;
+  }
+
+  /* Botons */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-base font-bold transition duration-200 focus-visible:outline-offset-4;
+  }
+  .btn-primary {
+    @apply bg-brand-600 text-white shadow-lg shadow-brand-600/25 hover:-translate-y-0.5 hover:bg-brand-700 hover:shadow-xl;
+  }
+  .btn-soft {
+    @apply bg-blush-300 text-brand-900 hover:-translate-y-0.5 hover:bg-blush-400;
+  }
+  .btn-outline {
+    @apply border-2 border-brand-200 bg-white text-brand-700 hover:border-brand-400 hover:bg-brand-50;
+  }
+  .btn-whatsapp {
+    @apply bg-green-700 text-white shadow-lg shadow-green-700/25 hover:-translate-y-0.5 hover:bg-green-800;
+  }
+
+  /* Logotip tipogràfic: píndola rosa "associació" + Parla (i) Integra */
+  .wordmark {
+    @apply inline-flex flex-col items-start leading-none;
+    font-family: var(--font-sans);
+  }
+  .wm-assoc {
+    @apply mb-[0.32em] inline-block rounded-full bg-blush-300 px-[0.6em] py-[0.2em] text-[0.56em] leading-none font-black tracking-[0.16em] text-brand-800 lowercase;
+  }
+  .wm-name {
+    @apply flex items-center gap-[0.26em] font-black tracking-tight whitespace-nowrap text-brand-800;
+  }
+  .wm-i {
+    @apply inline-flex size-[1.08em] items-center justify-center rounded-full bg-blush-300 pb-[0.04em] text-[0.8em] leading-none font-black text-brand-800;
+  }
+  .wordmark[data-tone="dark"] .wm-name {
+    @apply text-white;
+  }
+
+  /* Targetes */
+  .card {
+    @apply rounded-3xl border border-brand-100 bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-brand-900/10;
+  }
+  .icon-badge {
+    @apply inline-flex size-12 shrink-0 items-center justify-center rounded-2xl bg-blush-200 text-brand-700;
+  }
+
+  /* Llum que segueix el ratolí dins de les targetes */
+  .spotlight {
+    position: relative;
+    isolation: isolate;
+  }
+  .spotlight::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    border-radius: inherit;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    background: radial-gradient(380px circle at var(--mx, 50%) var(--my, 50%), rgb(247 197 240 / 0.55), transparent 65%);
+  }
+  .spotlight:hover::before {
+    opacity: 1;
+  }
+
+  /* Formularis */
+  .label {
+    @apply mb-1.5 block text-sm font-bold text-brand-800;
+  }
+  .input {
+    @apply w-full rounded-2xl border border-brand-200 bg-white px-4 py-3 text-base text-brand-900 placeholder:text-brand-400 transition focus:border-brand-500 focus:ring-4 focus:ring-blush-200 focus:outline-none;
+  }
+  .input[aria-invalid="true"] {
+    @apply border-red-500 focus:ring-red-100;
+  }
+  .field-error {
+    @apply mt-1.5 text-sm font-semibold text-red-700;
+  }
+
+  /* Opcions del formulari: targetes (motiu) i píndoles (detalls) */
+  .choice {
+    @apply relative block cursor-pointer;
+  }
+  .choice > input {
+    @apply absolute inset-0 size-full cursor-pointer opacity-0;
+  }
+  .choice-card {
+    @apply flex h-full items-center gap-3 rounded-2xl border-2 border-brand-100 bg-white p-3 text-start text-[0.95rem] leading-tight font-extrabold text-brand-800 transition duration-200;
+  }
+  .choice-card .icon-badge {
+    @apply size-10 rounded-xl transition;
+  }
+  .choice:hover > .choice-card {
+    @apply border-brand-300 bg-brand-50;
+  }
+  .choice > input:checked + .choice-card {
+    @apply border-brand-600 bg-brand-600 text-white shadow-lg shadow-brand-600/25;
+  }
+  .choice > input:checked + .choice-card .icon-badge {
+    @apply bg-white/20 text-white;
+  }
+  .choice-chip {
+    @apply inline-flex items-center rounded-full border-2 border-brand-200 bg-white px-4 py-2 text-sm font-bold text-brand-800 transition duration-200;
+  }
+  .choice:hover > .choice-chip {
+    @apply border-brand-400 bg-brand-50;
+  }
+  .choice > input:checked + .choice-chip {
+    @apply border-brand-600 bg-brand-600 text-white;
+  }
+  .choice > input:focus-visible + .choice-card,
+  .choice > input:focus-visible + .choice-chip {
+    outline: 3px solid var(--color-blush-500);
+    outline-offset: 2px;
+  }
+  .step-num {
+    @apply inline-flex size-7 shrink-0 items-center justify-center rounded-full bg-brand-600 text-sm font-extrabold text-white;
+  }
+
+  /* Aparició en fer scroll (variants amb data-reveal) */
+  .reveal {
+    opacity: 0;
+    transform: translateY(28px);
+    transition:
+      opacity 0.8s ease,
+      transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+    transition-delay: var(--reveal-delay, 0ms);
+  }
+  .reveal[data-reveal="left"] {
+    transform: translateX(-40px);
+  }
+  .reveal[data-reveal="right"] {
+    transform: translateX(40px);
+  }
+  [dir="rtl"] .reveal[data-reveal="left"] {
+    transform: translateX(40px);
+  }
+  [dir="rtl"] .reveal[data-reveal="right"] {
+    transform: translateX(-40px);
+  }
+  .reveal[data-reveal="zoom"] {
+    transform: scale(0.9);
+  }
+  .reveal[data-reveal="fade"] {
+    transform: none;
+  }
+  .reveal.is-visible {
+    opacity: 1;
+    transform: none;
+  }
+
+  /* Franja de benvinguda en moviment (sempre LTR) */
+  .marquee-track {
+    display: flex;
+    width: max-content;
+    animation: marquee 40s linear infinite;
+  }
+  .marquee:hover .marquee-track {
+    animation-play-state: paused;
+  }
+
+  /* Paraula rotatòria del títol */
+  .rotator {
+    display: grid;
+  }
+  .rotator-word {
+    grid-area: 1 / 1;
+    opacity: 0;
+    transform: translateY(70%);
+    transition:
+      opacity 0.5s ease,
+      transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  .rotator-word[data-state="in"] {
+    opacity: 1;
+    transform: none;
+  }
+  .rotator-word[data-state="out"] {
+    opacity: 0;
+    transform: translateY(-70%);
+  }
+
+  /* Xat decoratiu */
+  .chat-bubble {
+    animation: bubble 14s ease-in-out infinite both;
+    animation-delay: var(--d, 0s);
+  }
+  .chat-in {
+    animation: pop-in 0.55s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+    animation-delay: var(--d, 0s);
+  }
+  .typing span {
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 9999px;
+    background: var(--color-brand-400);
+    animation: dot 1.3s ease-in-out infinite;
+  }
+  .typing span:nth-child(2) {
+    animation-delay: 0.15s;
+  }
+  .typing span:nth-child(3) {
+    animation-delay: 0.3s;
+  }
+
+  /* Participant que parla a la videotrucada */
+  .tile-speaking {
+    animation: speak 8s ease-in-out infinite;
+    animation-delay: var(--d, 0s);
+  }
+
+  /* Política de privacitat (modal) */
+  .privacy-dialog {
+    @apply m-auto w-[calc(100%-1.5rem)] max-w-2xl flex-col overflow-hidden rounded-3xl border-0 bg-white p-0 shadow-2xl shadow-brand-900/30;
+    max-height: calc(100dvh - 1.5rem);
+  }
+  .privacy-dialog[open] {
+    display: flex;
+  }
+  .privacy-dialog::backdrop {
+    background: rgb(30 45 38 / 0.6);
+    backdrop-filter: blur(3px);
+  }
+  body:has(dialog[open]) {
+    overflow: hidden;
+  }
+
+  /* Pestanyes de situacions */
+  .scenario-tab {
+    @apply flex min-w-0 flex-col items-start gap-2 rounded-2xl border border-brand-100 bg-white p-3 text-start text-sm leading-tight font-extrabold text-brand-700 transition hover:border-brand-300 hover:bg-brand-50 sm:flex-row sm:items-center sm:gap-3 sm:px-4 sm:py-3 sm:text-base;
+  }
+  .scenario-tab[aria-selected="true"] {
+    @apply border-brand-600 bg-brand-600 text-white shadow-lg shadow-brand-600/25;
+  }
+  .scenario-tab[aria-selected="true"] .icon-badge {
+    @apply bg-white/20 text-white;
+  }
+
+  /* Camí: línia que s'omple i nodes que apareixen */
+  .journey-fill {
+    transform-origin: top;
+    transform: scaleY(0);
+    transition: transform 2.2s cubic-bezier(0.4, 0, 0.2, 1) 0.3s;
+  }
+  .reveal.is-visible .journey-fill {
+    transform: scaleY(1);
+  }
+  .journey-node {
+    opacity: 0;
+  }
+  .reveal.is-visible .journey-node {
+    animation: node-pop 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+    animation-delay: var(--d, 0s);
+  }
+  @media (min-width: 64rem) {
+    .journey-fill {
+      transform-origin: left;
+      transform: scaleX(0);
+    }
+    [dir="rtl"] .journey-fill {
+      transform-origin: right;
+    }
+    .reveal.is-visible .journey-fill {
+      transform: scaleX(1);
+    }
+  }
+
+  /* Barra de progrés de lectura */
+  .scroll-progress {
+    transform-origin: left;
+    transform: scaleX(var(--progress, 0));
+  }
+  [dir="rtl"] .scroll-progress {
+    transform-origin: right;
+  }
+
+  header[data-scrolled="true"] {
+    @apply shadow-lg shadow-brand-900/5;
+  }
+}
+
+/* FAQ: gir de la fletxa */
+details[open] > summary .faq-chevron {
+  transform: rotate(180deg);
+}
